@@ -72,4 +72,16 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>Rohith-LAPTOP-releases</name>
+        <url>http://localhost:8081/artifactory/jmaven1</url>
+    </repository>
+     <snapshotRepository>
+        <id>snapshots</id>
+        <name>Rohith-LAPTOP-snapshots</name>
+        <url>http://localhost:8081/artifactory/jmaven2</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
